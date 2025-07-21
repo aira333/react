@@ -15,9 +15,10 @@ const Services = () => (
       </Col>
       <Col md={6}>
         <img
-          src="https://via.placeholder.com/500x300?text=Solar+Services"
+          src="/Images/HomepageSPannelimage.jpeg"
           alt="Services"
           className="img-fluid"
+          style={{borderRadius: "8px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)"}}
         />
       </Col>
     </Row>

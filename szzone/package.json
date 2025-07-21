@@ -3,7 +3,6 @@
   "name": "szzone",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://github.com/Lakshmi/solarzone",
   "dependencies": {
     "@fontsource/roboto": "^5.2.5",
     "@testing-library/dom": "^10.4.0",

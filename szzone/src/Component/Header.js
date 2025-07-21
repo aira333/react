@@ -27,8 +27,8 @@ function Header() {
             textDecoration: 'none',
           }}
         >
-          {/* <img
-  src="Images\Studio-Project_editedsszone-Photoroom.png"
+          <img
+  src="/Images/Studio-Project_editedsszone-Photoroom.png"
   alt="SecureZone Logo"
   style={{
     height: "55px",
@@ -38,7 +38,7 @@ function Header() {
    // boxShadow: "0 0 10px rgba(120, 148, 199, 0.75)", // soft glow to blend with header
     backgroundColor: "#ffffff", // fallback for transparent images
     marginRight: "10px",
-  }} /> */}
+  }} />
 
 
         </Navbar.Brand>

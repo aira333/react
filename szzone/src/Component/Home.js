@@ -44,7 +44,7 @@ const Home = () => (
     {/* Top banner image section */}
     <Card className="bg-dark text-white m-0 position-relative">
       <Card.Img
-        src="./images/Solar-panel.jpg"
+        src="/Images/solar-panel.jpg"
         alt="Solar Energy Background"
         className="img-fluid"
         style={{
@@ -123,22 +123,22 @@ const Home = () => (
           {
             title: "Solar Panels",
             desc: "High-efficiency mono and polycrystalline panels suited for all rooftops.",
-            img: "./images/sweets.jpg"
+            img: "/Images/solar-panel.jpg"
           },
           {
             title: "Solar Inverters",
             desc: "Advanced hybrid and grid-tie inverters for energy conversion and storage.",
-            img: "./images/sweets.jpg"
+            img: "/Images/imges-solar-20pv-20modules-250x250.webp"
           },
           {
             title: "Solar Batteries",
             desc: "Reliable lithium and lead-acid battery solutions for continuous power.",
-            img: "./images/sweets.jpg"
+            img: "/Images/3-500x500.webp"
           },
           {
             title: "Installations",
             desc: "Professional rooftop installations with warranty and maintenance support.",
-            img: "./images/sweets.jpg"
+            img: "/Images/HomepageSPannelimage.jpeg"
           }
         ].map((service, index) => (
           <Col md={3} key={index}>
@@ -164,7 +164,7 @@ const Home = () => (
         "Weather resistant & durable",
         "Ideal for both residential and commercial use"
       ],
-      img: "./images/sweets.jpg"
+      img: "/Images/solar-panel.jpg"
     },
     {
       title: "Solar Inverters",
@@ -174,7 +174,7 @@ const Home = () => (
         "Supports battery charging",
         "Wi-Fi enabled for monitoring"
       ],
-      img: "./images/sweets.jpg"
+      img: "/Images/imges-solar-20pv-20modules-250x250.webp"
     },
     {
       title: "Solar Batteries",
@@ -184,7 +184,7 @@ const Home = () => (
         "Fast charging & deep discharge support",
         "Ideal for off-grid and hybrid systems"
       ],
-      img: "./images/sweets.jpg"
+      img: "/Images/3-500x500.webp"
     },
     {
       title: "Installations",
@@ -194,7 +194,7 @@ const Home = () => (
         "Turnkey project execution",
         "Annual Maintenance Contracts available"
       ],
-      img: "./images/sweets.jpg"
+      img: "/Images/HomepageSPannelimage.jpeg"
     }
   ].map((service, index) => (
     <Col md={3} key={index}>
